@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+p{
+    margin: 0 auto;
+}
+
+.item2{
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,39 @@
+footer{
+    border-top: 2px solid black;
+}
+
+img{
+    max-width: 45px;
+    
+}
+
+img:hover{
+    border-radius: 100%;
+    background-color: slategray;
+    transform: scale(1.15); 
+    border: 2px solid;
+    border-color: slategray;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+p{
+    margin: 0;
+    font-style: italic;
+}
+
+.item1{
+    gap: 5px;
+}
+
+.item3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 6px;
+}

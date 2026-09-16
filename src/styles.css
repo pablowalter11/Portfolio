@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    background-color: darkslategray;
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: none;
+}
+
+
+button:hover{
+    background-color: lightgray;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
