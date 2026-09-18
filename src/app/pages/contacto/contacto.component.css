@@ -1,0 +1,20 @@
+h2 {
+    text-align: center;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.container > div:first-child {
+    grid-column: 1 / 3;
+}
+
+.container > div{
+    text-align: center;
+}

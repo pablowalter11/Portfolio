@@ -8,6 +8,10 @@ body{
     margin: 0;
 }
 
+h2{
+    margin-bottom: 0;
+}
+
 button{
     font-family: "Oswald", sans-serif;
     cursor: pointer;

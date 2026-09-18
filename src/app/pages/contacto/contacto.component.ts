@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './contacto.component.css'
 })
 export class ContactoComponent {
+  gmail: string = '';
+  celular: string = '';
 
+  showGamil() {
+    this.gmail = 'Pablo.walter.quiroga11@gmail.com'
+  }
+
+  showCelular() {
+    this.celular = '2234490562';
+  }
 }

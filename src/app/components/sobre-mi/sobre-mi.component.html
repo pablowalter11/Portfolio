@@ -1,1 +1,20 @@
-<p>sibre-mi works!</p>
+<h2>SOBRE MÍ</h2>
+<div class="container">
+    <div class="item1">
+        <button (click)="showDescription(1)">
+            ¿Quién soy?
+        </button>
+        <button (click)="showDescription(2)">
+            ¿Qué hago?
+        </button>
+        <button (click)="showDescription(3)">
+            Tecnologías
+        </button>
+        <button (click)="showDescription(4)">
+            Actualmente
+        </button>
+    </div>
+    <div class="item2">
+        <p>{{ description }}</p>
+    </div>
+</div>
