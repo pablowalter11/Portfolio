@@ -12,7 +12,7 @@ export class ContactoComponent {
   celular: string = '';
 
   showGamil() {
-    this.gmail = 'Pablo.walter.quiroga11@gmail.com'
+    this.gmail = 'pablo.walter.quiroga11@gmail.com'
   }
 
   showCelular() {

@@ -25,6 +25,7 @@ img{
 .item{
     flex: 1 1 350px;
     object-fit: cover;
+
 }
 
 .item a{
@@ -40,4 +41,5 @@ img{
 
 .item:hover .description{
     max-height: 150px;
+    text-align: center;
 }

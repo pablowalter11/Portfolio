@@ -38,10 +38,14 @@ img{
 .item1{
     width: 35%;
     max-width: 250px;
+    display: flex;
+    justify-content: end;
     align-items: center;
 }
 
 .item2{
     width: 35%;
     max-width: 250px;
+    display: flex;
+    justify-content: baseline;
 }
